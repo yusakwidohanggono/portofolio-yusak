@@ -1,0 +1,91 @@
+body {
+  background: linear-gradient(#be5deb 0%, #FF7F50 40%,#7420d3 100%);
+}
+.navbar-brand {
+  color: #fff;
+  text-shadow:
+      0 0 7px #161515,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #0fa,
+      0 0 82px #0fa,
+      0 0 92px #0fa,
+      0 0 102px #0fa,
+      0 0 151px #0fa;
+      background: -webkit-linear-gradient(left, rgba(39,214,230,1) 0%, rgba(152,235,97,1) 50%, rgba(248,80,50,1) 100%);
+}
+.nav-link {
+  text-transform: uppercase;
+  margin-right: 20px;
+}
+
+.nav-link:hover {
+  color: #0D6EFD;
+}
+.aboutme {
+  width: 100%;
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  gap: 7em;
+  padding: 50px 12% 0;
+
+}
+
+.home-content {
+  max-width: 800px;
+}
+.home-content span{
+  background: -webkit-linear-gradient(left, #020024 0%, #790946 21%, #0800ff 100%);
+	color:transparent;
+	background-clip: text;
+}
+.home-content h3 {
+  font-size: 42px;
+  font-family: system-ui;
+  padding-top: 90px;
+  text-shadow: 2px 2px 5px red;
+}
+.home-content h1 {
+  font-size: 62px;
+  line-height: 1.2;
+}
+.home-content p{
+  font-size: 18px;
+  margin: 25px 0 30px;
+}
+.profile{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+margin-top: 50px;
+}
+.profileImage{
+  width: 200px;
+}   
+.startEnd{
+  padding-top: 30px;
+  margin-bottom: 5px;
+}
+.btn {
+    margin: 5px 0; 
+}
+
+.itemEdu {
+    margin: 5px 0;
+}
+.subNameHeading {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  text-shadow: 2px 2px 5px red;
+}
+.card-body {
+  padding-top: 30px;
+  margin-bottom: 5px;
+  margin-top: 30px;
+}
+.card-title {
+  margin-top: 30px;
+  padding-bottom: 20px;
+}
